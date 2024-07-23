@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+input::placeholder{
+    color: white !important;
+}
+.message_content:nth-child(2n){
+    background-color: gray;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+textarea{
+    resize: none;
+}
